@@ -13,7 +13,6 @@ export default defineConfig({
   base: './',
   server: {
     allowedHosts: [
-      'c1501e2d4d61-0.gysnsx.fnos.net', // 具体主机
       '*.fnos.net',
       'wsgys.xin*'// 可选：通配符匹配所有 .fnos.net 结尾的域名
       // 可根据需要添加其他主机
